@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<section class="hero is-large">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Takeaway.com
+      </h1>
+      <h2 class="subtitle">
+        HacktoberFest 2019
+      </h2>
+    </div>
+  </div>
+</section>
+
+<article class="section main-content">
+  <div class="container">
+    {{ content }}
+  </div>
+</article>
+
+<section class="section participants">
+  <h2>Participants</h2>
+  <div class="container">
+    {% for participant_hash in site.data.participants %}
+      {% assign participant = participant_hash[1] %}
+      <pre>{{ participant }}</pre>
+      {% comment %}
+        <!-- @TODO: Add participant details -->
+        {% for person in participant %}
+          <li>{{ person.name }}</li>
+          <li>{{ person.website }}</li>
+          <li>{{ person.github }}</li>
+          <li>{{ person.level }}</li>
+          <li>{{ person.organisation.name }}</li>
+          <li>{{ person.organisation.website }}</li>
+          <ol>{{ person.repos }}</ol>
+          <ul>{{ person.social }}</ul>
+          <p>{{ person.comment | newline_to_br }}</p>
+        {% endfor %}
+      {% endcomment %}
+    {% endfor %}
+  </div>
+</section>
