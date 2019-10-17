@@ -1,0 +1,61 @@
+--- 
+# ==============================================================================
+# This file serves as an example so you can add your own information to the list
+# of people who participated to the Takeaway 2019 HakctoberFest Event!
+#
+# If you are not sure if your YAML is correct, check it here: http://www.yamllint.com/
+
+# ==============================================================================
+# The following three fields (name, github, level) are required, everything else
+# is optional.
+
+# ------------------------------------------------------------------------------
+# How do you want people to address you? (does not have to be your _real_ name)
+name: Ben Peachey
+
+# ------------------------------------------------------------------------------
+# What are you called on Github? (So we can check this is your Merge Request)
+github: potherca
+
+# ------------------------------------------------------------------------------
+# What level of open-source contribution skillz do you have?
+# beginner / intermediate / advenced
+level: advanced
+
+# ==============================================================================
+# The fields below are all optional. Do you want to share more about yourself?
+
+# ------------------------------------------------------------------------------
+# Is there a website you want to link to?
+website: https://pother.ca/
+
+# ------------------------------------------------------------------------------
+# What projects do you plan on contributing to? (Or have you already contributed to?)
+repos:
+ - takeaway/hacktoberfest
+ - "?"
+ - "?"
+ - "?"
+ - "?"
+
+# ------------------------------------------------------------------------------
+# Where else can you be found? The key names can be whatever you like.
+# You can use letter and numbers, underscores can be used as spaces.
+social:
+  LinkedIn: https://www.linkedin.com/in/benpeachey/
+  Twitter: https://twitter.com/potherca
+  StackOverflow: https://stackoverflow.com/users/153049/potherca
+  Regex_Crossword: https://regexcrossword.com/profile/26744
+
+# Are you affilated to a company, place of education, or other organisation?
+organisation: 
+  name: Takeaway.com
+  website: https://takeaway.com/
+
+# Is there anything you want to share with the world at large?
+comment: >
+  I am one of the co-organisers of the event and one of the mentors that help out
+  during the event by giving mini-workshops and explaining things people might
+  struggle with.
+  
+  I would like to thank everyone for coming!
