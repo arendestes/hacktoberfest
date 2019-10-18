@@ -58,13 +58,6 @@ title: Takeaway.com 2019 HacktoberFest Guidelines
 
 [Check how many PR's you have yet to do for a sweet hacktoberfest t-shirt!][prchecker]
 
-## Starting repo's
-
-[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
-
-[Beginner links][Beginnerrepo]
-[Awesome list][Awesomelist]
-
 <!-- Links below this line -->
 [OSD]:[https://opensource.org/osd-annotated]
 [prchecker]: https://hacktoberfestchecker.jenko.me/
@@ -77,7 +70,4 @@ title: Takeaway.com 2019 HacktoberFest Guidelines
 [gitfork]: https://help.github.com/en/articles/fork-a-repo
 [gitreference]: https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide
 [aboutmergerequest]: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
-
-<!-- Lists -->
-[Beginnerrepo]: https://github.com/mungell/awesome-for-beginners
-[Awesomelist]: https://github.com/mattjegan/awesome-hacktoberfest
+[gitdownload]: https://git-scm.com
