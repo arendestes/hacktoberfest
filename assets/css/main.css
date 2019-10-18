@@ -1,0 +1,98 @@
+body {
+    background-color: #ff8000;
+}
+
+.hero-body {
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+}
+
+
+.organisation-title {
+    padding-top: 10rem;
+}
+
+.title, .subtitle, .main-content {
+    color:white;
+}
+
+.participant-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+}
+
+.participant-container > .participant {
+    max-width: 30%;
+    min-width: 400px;
+    background-color: #f1f1f1;
+    margin: 10px;
+  }
+
+a {
+    color: #49A6FF !important;
+}
+
+a:hover{
+    color: #6741D7 !important;
+}
+
+.participant__comment {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* todo add medals */
+.beginner::before{
+    font-family: "FontAwesome regular"; 
+    color: #6A3805;
+    content: "\f5a2";
+}
+
+.intermediate::before{
+    font-family: "FontAwesome"; 
+    color: #B4B4B4;
+    content: "\f5a2";
+}
+
+.advanced::before{
+    font-family: "FontAwesome"; 
+    color:#af9500;
+    content: "\f5a2";
+}
+
+.participant__social a::before {
+    font-family: "FontAwesome"; 
+    content: "\f0ac";
+}
+
+.participant__social--twitter a::before {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f099";
+    color: #38A1F3;
+}
+
+.participant__social--linkedin a::before {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f08c";
+    color:#018BC8;
+}
+
+.participant__social--stackoverflow a::before {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f16c";
+    color: #FD7E13;
+}
+
+.participant__social--twitch a::before {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f1e8";
+    color: #6441a5;
+}
+
+.participant__social--facebook a::before {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f16c";
+    color: #3B5998;
+}
