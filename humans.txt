@@ -1,0 +1,18 @@
+/* PROJECT */
+
+	Site Name:   hacktoberfest takeaway.com
+	Site URL:    https://takeaway.technology/hacktoberfest/
+	Created:     2019/10
+     
+
+
+/* TEAM */
+
+    Names
+    Arend Estes
+
+
+
+/* THANKS */
+
+	To everyone who contributes!
