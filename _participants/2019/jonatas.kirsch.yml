@@ -32,11 +32,11 @@ website: https://linkedin.com/in/jonataskrisch
 # ------------------------------------------------------------------------------
 # What projects do you plan on contributing to? (Or have you already contributed to?)
 repos:
- - [Jenkins] (https://github.com/jenkinsci/jenkins)
- - https://github.com/jonatask/web-testing-java-framework
- - https://github.com/jonatask/test-failure-messaging-for-readyapi-in-jenkins
- - https://github.com/jonatask/api-testing-java-framework
- - https://github.com/jonatask/appium-java-framework
+ - jenkinsci/jenkins
+ - jonatask/web-testing-java-framework
+ - jonatask/test-failure-messaging-for-readyapi-in-jenkins
+ - jonatask/api-testing-java-framework
+ - jonatask/appium-java-framework
 
 # ------------------------------------------------------------------------------
 # Where else can you be found? The key names can be whatever you like.
