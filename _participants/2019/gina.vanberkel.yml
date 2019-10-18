@@ -33,10 +33,9 @@ website:
 # What projects do you plan on contributing to? (Or have you already contributed to?)
 repos:
  - takeaway/hacktoberfest
- - "?"
- - "?"
- - "?"
- - "?"
+ - swapagarwal/awesome-inspiration
+ - firstcontributions/first-contributions
+ - RichardLitt/awesome-fantasy
 
 # ------------------------------------------------------------------------------
 # Where else can you be found? The key names can be whatever you like.
