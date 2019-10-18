@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<section class="hero is-large">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Takeaway.com
+      </h1>
+      <h2 class="subtitle">
+        HacktoberFest 2019
+      </h2>
+    </div>
+  </div>
+</section>
+
+<article class="section main-content">
+  <div class="container">
+    {{ content }}
+  </div>
+</article>
+
+<section class="section participants">
+  <h2 class="title">Participants</h2>
+  <div class="columns participant-container">
+    {% for participant_hash in site.data.2019 %}
+      {% assign person = participant_hash[1] %}
+        <ul class="box column is-one-quarter participant">
+          <li class="is-pulled-left participant__name">
+            {% if person.website %}
+              <a class="participant__link" href="{{ person.website }}">{{ person.name }}</a>
+            {% else %}
+              {{ person.name }}
+            {% endif %}
+          </li>
+          <li class="is-pulled-right participant__github"><a href="https://github.com/{{ person.github }}">@{{ person.github }}</a></li>
+          <li class="has-text-centered participant__level">{{ person.level }}</li>
+
+          {% if person.organisation.name %}
+            <li class="participant__organisation">
+              {% if person.organisation.website %}
+                <a class="participant__organisation-link" href="{{ person.website }}">{{ person.organisation.name }}</a>
+              {% else %}
+                {{ person.organisation.name }}
+              {% endif %}
+            </li>
+          {% endif %}
+
+          {% if person.repos %}
+            <li class="participant__repos">
+              <ol class="participant__repos list">
+              {% for repo in person.repos %}
+                <li class="list-item">
+                  {% if repo contains "/" %}
+                  <a href="https://github.com/{{ repo }}">{{ repo }}</a>
+                  {% else %}
+                    {{ repo }}
+                  {% endif %}
+                </li>
+              {% endfor %}
+              </ol>
+            </li>
+          {% endif %}
+
+          {% if person.comment %}
+            <li class="participant__comment">{{ person.comment | newline_to_br }}</li>
+          {% endif %}
+
+          {% if person.social %}
+            <li class="participant__social-container">
+              <ul class="participant__social list">
+                {% for social in person.social %}
+                <li class="list-item participant__social--{{ social[0] }}">
+                  <span class="participant__social-name">
+                    <a class="participant__social-link" href="{{ social[1] }}">
+                    {{ social[0] | replace: "_", " " }}
+                    </a>
+                  </span>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endif %}
+        </ul>
+    {% endfor %}
+  </div>
+</section>
